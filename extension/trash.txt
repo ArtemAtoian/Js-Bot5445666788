@@ -1,0 +1,11 @@
+    for(var i = 0; i < 14; i++){
+        if(str[i] != elifstr[i] || str[i] != elifelifstr[i]){
+            break
+        }else{
+            counter++
+            if(counter == 15){
+                console.log(document.getElementsByClassName("row-2").value)
+                break
+            }
+        }
+    }
