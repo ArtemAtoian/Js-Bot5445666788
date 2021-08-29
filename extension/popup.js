@@ -1,4 +1,4 @@
-window.onload = function(){
+function clickfunc() {
     var str = document.getElementsByClassName("row-2").value
     var elifstr = "Просмотр видео "
     var elifelifstr = "Переход + Просм"
